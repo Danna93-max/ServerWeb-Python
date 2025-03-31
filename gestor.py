@@ -59,7 +59,7 @@ while True:
                 else:
                     for alumne in alumnes:
                         print(f"ID: {alumne['id']}, Nom: {alumne['nom']}, Cognom: {alumne['cognom']}")
-                input()
+            input()
     
         # Afegir alumne ##################################
         case "2":
@@ -91,7 +91,7 @@ while True:
                 })
                 id_counter += 1
                 print("\nAlumne afegit correctament!")
-                input()
+            input()
     
         # Veure alumne ##################################
         case "3":
@@ -107,7 +107,7 @@ while True:
                     print(json.dumps(alumne, indent=4))
                 else:
                     print("Alumne no trobat.")
-                input()
+            input()
 
         # Esborrar alumne ##################################
         case "4":
