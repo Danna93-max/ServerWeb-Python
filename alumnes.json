@@ -1,0 +1,68 @@
+
+[
+    {
+        "id": 1,
+        "nom": "Danna",
+        "cognom": "Quintero",
+        "data": {
+            "dia": 6,
+            "mes": 9,
+            "any": 2006
+        },
+        "email": "danna.quintero@gmail.com",
+        "feina": false,
+        "curs": "DAW-1B"
+    },
+    {
+        "id": 2,
+        "nom": "Camila",
+        "cognom": "Arebalo",
+        "data": {
+            "dia": 3,
+            "mes": 6,
+            "any": 2006
+        },
+        "email": "camila.arebalo@gmail.com",
+        "feina": true,
+        "curs": "DAM-1B"
+    },
+    {
+        "id": 3,
+        "nom": "Paolo",
+        "cognom": "Marin",
+        "data": {
+            "dia": 20,
+            "mes": 11,
+            "any": 2005
+        },
+        "email": "paolo.marin@gmail.com",
+        "feina": false,
+        "curs": "DAW-1B"
+    },
+    {
+        "id": 4,
+        "nom": "Pau",
+        "cognom": "Soler",
+        "data": {
+            "dia": 3,
+            "mes": 11,
+            "any": 1998
+        },
+        "email": "pau.soler@gmail.com",
+        "feina": true,
+        "curs": "ASIX"
+    },
+    {
+        "id": 5,
+        "nom": "Marta",
+        "cognom": "Puig",
+        "data": {
+            "dia": 28,
+            "mes": 9,
+            "any": 2000
+        },
+        "email": "marta.puig@gmail.com",
+        "feina": false,
+        "curs": "DAM"
+    }
+]
