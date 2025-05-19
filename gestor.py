@@ -44,7 +44,7 @@ while True:
     #Executem una opció funció del que hagi escollit l'usuari
     match opcio:
 
-        # Mostrar alumnes ##################################
+        ######################## Mostrar alumnes ##################################
         case "1":
             os.system('cls')
             print("Mostrar alumnes")
@@ -61,7 +61,7 @@ while True:
                         print(f"ID: {alumne['id']}, Nom: {alumne['nom']}, Cognom: {alumne['cognom']}")
             input()
     
-        # Afegir alumne ##################################
+        ########################## Afegir alumne ##################################
         case "2":
             os.system('cls')
             print("Afegir alumne")
@@ -93,7 +93,7 @@ while True:
                 print("\nAlumne afegit correctament!")
             input()
     
-        # Veure alumne ##################################
+        ###################### Veure alumne ##################################
         case "3":
             os.system('cls')
             print("Veure alumne")
@@ -109,7 +109,7 @@ while True:
                     print("Alumne no trobat.")
             input()
 
-        # Esborrar alumne ##################################
+        ################## Esborrar alumne ##################################
         case "4":
             os.system('cls')
             print("Esborrar alumne")
@@ -123,7 +123,7 @@ while True:
   
             input()
 
-        # Desar a fitxer ##################################
+        ###############3 Desar a fitxer ##################################
         case "5":
             os.system('cls')
             print("Desar a fitxer")
@@ -136,7 +136,7 @@ while True:
             
             input()
 
-        # Llegir fitxer ##################################
+        ################# Llegir fitxer ##################################
         case "6":    
             os.system('cls')
             print("Llegir fitxer")
@@ -155,7 +155,7 @@ while True:
 
             input()
 
-        # Sortir ##################################
+        ####################### Sortir ##############################
         case "0":
             os.system('cls')
             print("Adeu!")
@@ -163,7 +163,7 @@ while True:
             #Trenquem el bucle infinit
             break
 
-        #Qualsevol altra cosa #####################   
+        ################## Qualsevol altra cosa #####################   
         case _:
             print("\nOpció incorrecta\a")            
             input()
